@@ -669,6 +669,8 @@ for each image to create a staggered slideshow effect */
 
     margin-top: 50px;
     gap: 16px;
+
+    overflow: visible;
 }
 
 .date {
@@ -736,7 +738,12 @@ for each image to create a staggered slideshow effect */
 }
 
 .audio-wrapper {
+    width: 100%;
     display: flex;
     justify-content: center;
-    width: 100%;
+    margin-top: 12px;
+}
+
+.audio-wrapper audio {
+    max-width: 100%;
 }
