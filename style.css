@@ -735,11 +735,8 @@ for each image to create a staggered slideshow effect */
     margin: auto auto; 
 }
 
-@media (max-width: 900px) {
-    .audio {
-        display: block;
-        width: 50%;
-        margin: auto auto; 
-        padding: 50px;
-    }
+.audio-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
