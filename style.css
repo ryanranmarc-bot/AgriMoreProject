@@ -154,10 +154,11 @@ body {
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 828px) {
     .subtitle p {
         font-size: 14px;
         margin-top: 40px;
+        align-items: center;
     }
 }
 
@@ -179,10 +180,11 @@ body {
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 828px) {
     .description {
         font-size: 10px;
         width: auto;
+        align-items: center;
     }
 }
 
@@ -209,6 +211,7 @@ body {
     .slideshow-title {
         font-size: 24px;
         width: 400px;
+        align-items: center;
     }
 }
 
@@ -258,11 +261,13 @@ body {
     .slideshow {
         height: 40vh;
         margin: 24px 48px;
+        align-items: center;
     }
 
     .slideshow img {
         object-fit: contain; 
         width: auto;
+        align-items: center;
     }
 }
 
@@ -271,11 +276,13 @@ body {
     .slideshow {
         height: 30vh;
         margin: 24px 48px;
+        align-items: center;
     }
 
     .slideshow img {
         object-fit: contain; 
         width: auto;
+        align-items: center;
     }
 }
 
@@ -360,6 +367,7 @@ for each image to create a staggered slideshow effect */
         font-size: 24px;
         width: 65%;
         margin: 80px auto 10px;
+        align-items: center;
     }
 }
 
@@ -391,6 +399,7 @@ for each image to create a staggered slideshow effect */
     .preview {
         flex-direction: column;
         width: 65%;
+        align-items: center;
     }
 
     .preview ul {
@@ -717,6 +726,8 @@ for each image to create a staggered slideshow effect */
 
     border: 1px white dashed;
     border-radius: 10px;
+
+    align-items: center;
 }
 
 .top a:visited {
@@ -737,6 +748,7 @@ for each image to create a staggered slideshow effect */
     text-align: center;
     font-size: 12px;
     font-family: Arial, sans-serif;
+    align-items: center;
 }
 
 /* End of Farming Types, Technology, and Livestock */
