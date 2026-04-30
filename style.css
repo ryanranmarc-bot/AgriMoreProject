@@ -156,7 +156,7 @@ body {
 
 @media (max-width: 830px) {
     .subtitle p {
-        font-size: 22px;
+        font-size: 10px;
         margin-top: 40px;
     }
 }
@@ -182,7 +182,6 @@ body {
 @media (max-width: 830px) {
     .description {
         font-size: 18px;
-        width: auto;
     }
 }
 
