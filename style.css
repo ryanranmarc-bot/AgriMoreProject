@@ -156,9 +156,8 @@ body {
 
 @media (max-width: 828px) {
     .subtitle p {
-        font-size: 14px;
+        font-size: 22px;
         margin-top: 40px;
-        align-items: center;
     }
 }
 
@@ -182,9 +181,8 @@ body {
 
 @media (max-width: 828px) {
     .description {
-        font-size: 10px;
+        font-size: 18px;
         width: auto;
-        align-items: center;
     }
 }
 
