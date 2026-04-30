@@ -159,6 +159,9 @@ body {
         font-size: 20px;
         margin-top: 40px;
     }
+    .subtitle {
+        width: 95%;
+    }
 }
 
 .description {
@@ -208,7 +211,7 @@ body {
 @media (max-width: 900px) {
     .slideshow-title {
         font-size: 24px;
-        width: 400px;
+        width: 80%;
         align-items: center;
     }
 }
